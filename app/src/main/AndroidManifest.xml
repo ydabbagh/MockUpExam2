@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mockupexam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/clipart"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/clipart"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MockUpExam">
+        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

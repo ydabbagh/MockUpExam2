@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YASMEEN-MidTerm20</string>
+    <string name="activity1">You are in activity 1</string>
+    <string name="activity2">You are in activity 2</string>
+    <string name="activity3">You are in activity 3</string>
+    <string name="bttn1">Go to activity 1</string>
+    <string name="bttn2">Go to activity 2</string>
+    <string name="bttn3">Go to activity 3</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="name">Insert Your Name</string>
+    <string name="birthYear">Insert Birth Year</string>
+    <string name="gender">Gender</string>
+    <string name="submit">Submit</string>
+
+</resources>

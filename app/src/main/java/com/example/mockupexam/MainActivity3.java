@@ -2,7 +2,6 @@ package com.example.mockupexam;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +15,7 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         String[] animals = {"Elephant", "Giraffe", "Horse", "Animal", "Lamb"};
+        //setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main3, R.id.animal, animals));
 
         Button btn1 = (Button) findViewById(R.id.button3);
         Button btn2 = (Button) findViewById(R.id.button4);
